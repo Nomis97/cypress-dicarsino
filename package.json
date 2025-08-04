@@ -1,4 +1,12 @@
 {
+  "name": "cypress-13-review",
+  "version": "1.0.0",
+  "description": "Quick cypress project to review test replay feature.",
+  "main": "index.js",
+  "scripts": {
+    "test-runner": "npx cypress open",
+    "cypress-cloud": "npx cypress run --record --key 30dfa536-a486-4efa-be8e-1f59a8a8e921"
+  },
   "devDependencies": {
     "cypress": "^14.5.3"
   }
